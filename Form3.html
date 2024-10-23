@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img width="15%" src="planification.png" alt="planificacion">
+
+    <form action="data2.php" method="post">
+        <fieldset>
+            <legend>Member Demographics</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+
+            <p>Are you Member?</p>
+
+            <label for="member">Member</label>
+            <input type="radio" name="member" id="member" value="member">
+            <label for="member">Non-Member</label>
+            <input type="radio" name="member" id="non-member" value="non-member">
+
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+        </fieldset>
+        <br>
+
+        <label for="facility">Facility</label>
+        <select name="opciones" id="facility">
+            <option value="opciones">Indor football</option>
+            <option value="opciones">Golf</option>
+        </select>
+
+        <p>Select a reservation date and time</p>
+        <label for="date"></label>
+        <input type="date">
+        <input type="time">
+
+        <br><br>
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">I agree to the club's reservation policy</label>
+
+        <br><br>
+
+        <label for="submit"></label>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
